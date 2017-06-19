@@ -15,9 +15,5 @@ class Post(models.Model):
         ordering=('-pub_date',)#按出版时间倒序排列
 
 
-    def __unicode__(self):
-        return self.title
-
-
     def __str__(self):
         return self.title
